@@ -1,10 +1,5 @@
 
-
-// Bohan Gou,000360941. certify that this material is my original work.
-// No other person's work has been used without due acknowledgement. 
-// I have not made my work available to anyone els
-
-
+ 
 animationDelay = 100;
 minSearchTime = 100;
 
