@@ -579,8 +579,4 @@ board.prototype.isWin = function() {
   }
   return false;
 }
-
-//board.prototype.zobristTable = {}
-//for
-//board.prototype.hash = function() {
-//}
+ 
