@@ -1,10 +1,4 @@
-
-// Bohan Gou,000360941. certify that this material is my original work.
-// No other person's work has been used without due acknowledgement. 
-// I have not made my work available to anyone els
-
-//set different situation of game, 重新开始， 结束。。。之类
-
+ 
 function controller(size, InputManager, Actuator) {
   this.size         = size; // Size of the board
    this.inputManager = new InputManager;
