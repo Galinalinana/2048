@@ -1,0 +1,196 @@
+
+/* 
+// Bohan Gou,000360941. certify that this material is my original work.
+// No other person's work has been used without due acknowledgement. 
+// I have not made my work available to anyone els */
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f1f5dc;
+  color: black;
+  font-family: Arial;
+  font-size: 18px; }
+
+body {
+  margin: 80px 0; }
+
+.heading:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+h1.title {
+  font-size: 80px;
+  font-weight: bold;
+   float: left; }
+
+ 
+.container {
+  width: 500px;
+  margin: 0 auto; }
+
+ 
+.game-container {
+  margin-top: 40px;
+  position: relative;
+  padding: 15px;
+    background: #e8ece9;
+   width: 500px;
+  height: 500px;
+   box-sizing: border-box; }
+  .game-container .game-message {
+    display: none;
+    position: absolute;
+     background: #f1f5dc;
+    z-index: 100;
+    text-align: center;
+   }
+ 
+.grid-container {
+  position: absolute;
+  z-index: 1; }
+
+.grid-row {
+  margin-bottom: 15px; }
+  .grid-row:last-child {
+    margin-bottom: 0; }
+  .grid-row:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.grid-cell {
+  width: 106.25px;
+  height: 106.25px;
+  margin-right: 15px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(238, 228, 218, 0.35); }
+  .grid-cell:last-child {
+    margin-right: 0; }
+
+.tile-container {
+  position: absolute;
+  z-index: 2; }
+
+.tile {
+  width: 106.25px;
+  height: 106.25px;
+  line-height: 116.25px; }
+  .tile.tile-position-1-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+  .tile.tile-position-1-2 {
+    position: absolute;
+    left: 0px;
+    top: 121px; }
+  .tile.tile-position-1-3 {
+    position: absolute;
+    left: 0px;
+    top: 243px; }
+  .tile.tile-position-1-4 {
+    position: absolute;
+    left: 0px;
+    top: 364px; }
+  .tile.tile-position-2-1 {
+    position: absolute;
+    left: 121px;
+    top: 0px; }
+  .tile.tile-position-2-2 {
+    position: absolute;
+    left: 121px;
+    top: 121px; }
+  .tile.tile-position-2-3 {
+    position: absolute;
+    left: 121px;
+    top: 243px; }
+  .tile.tile-position-2-4 {
+    position: absolute;
+    left: 121px;
+    top: 364px; }
+  .tile.tile-position-3-1 {
+    position: absolute;
+    left: 243px;
+    top: 0px; }
+  .tile.tile-position-3-2 {
+    position: absolute;
+    left: 243px;
+    top: 121px; }
+  .tile.tile-position-3-3 {
+    position: absolute;
+    left: 243px;
+    top: 243px; }
+  .tile.tile-position-3-4 {
+    position: absolute;
+    left: 243px;
+    top: 364px; }
+  .tile.tile-position-4-1 {
+    position: absolute;
+    left: 364px;
+    top: 0px; }
+  .tile.tile-position-4-2 {
+    position: absolute;
+    left: 364px;
+    top: 121px; }
+  .tile.tile-position-4-3 {
+    position: absolute;
+    left: 364px;
+    top: 243px; }
+  .tile.tile-position-4-4 {
+    position: absolute;
+    left: 364px;
+    top: 364px; }
+
+.tile {
+  border-radius: 3px;
+  background: #eee4da;
+  text-align: center;
+   z-index: 10;
+  font-size: 55px;
+ }
+  .tile.tile-2 {
+    background: #d2a4c8;
+   color:#7d541c;}
+    .tile.tile-4 {
+    background: #985b9e;
+  color:#7b541c;
+  }
+   .tile.tile-8 {
+    color: #7b541c;
+    background:#985b9e;}
+  .tile.tile-16 {
+    color: #7b541c;
+    background: #894b84; }
+  .tile.tile-32 {
+    color: #7b541c;
+    background: #aaa7d0; }
+  .tile.tile-64 {
+    color: #7b541c;
+    background: #8a64a0; }
+  .tile.tile-128 {
+    color: #7b541c;
+    background: #581074;
+     }
+   .tile.tile-256 {
+    color: #7b541c;
+    background: #745399;
+     }
+   .tile.tile-512 {
+    color: #7b541c;
+    background: #934491;
+      }
+   .tile.tile-1024 {
+    color: #7b541c;
+    background: #b33e5c;
+     }
+   .tile.tile-2048 {
+    color: #7b541c;
+    background: #caac71;
+     }
+ 
+ 
+  

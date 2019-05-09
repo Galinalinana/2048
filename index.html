@@ -1,0 +1,79 @@
+
+<!-- Bohan Gou,000360941. certify that this material is my original work.
+ No other person's work has been used without due acknowledgement. 
+ I have not made my work available to anyone els -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048</title>
+
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <!-- <link href="style/ai.css" rel="stylesheet" type="text/css"> -->
+ </head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <h2 class="title">Bohan Gou</h2>
+     </div>
+ 
+    <div class="controls">
+       <div id="run-button-container">
+        <button id="run-button" class="ai-button">RUN</button>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">Try again</a>
+         </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+   </div>
+   <script src="hammer.min.js"></script>
+  <script src="input.js"></script>
+  <script src="action.js"></script>
+  <script src="board.js"></script>
+  <script src="tile.js"></script>
+  <script src="ai.js"></script>
+  <script src="controller.js"></script>
+  <script src="application.js"></script>
+ </body>
+</html>
